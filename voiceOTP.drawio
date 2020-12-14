@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T03:48:24.489Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="_WwVzQl0GuG7Eif7HKjc" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T03:54:10.227Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="E7skbNASCyI01XbFjuj3" version="13.10.4" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1186" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -322,7 +322,7 @@
         <mxCell id="eKoN9m4MR0wtzUziHYdc-25" value="&lt;font&gt;发请求 /get_identity_info&lt;br&gt;&amp;nbsp;(获取身份证信息)&lt;/font&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="42.9" y="1235" width="226.1" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="eKoN9m4MR0wtzUziHYdc-27" value="发请求 /check_identity_ocr&lt;br&gt;&lt;span&gt;保存并重置id_card_name&lt;br&gt;和id_card_no信息&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#005700;fillColor=#008a00;fontColor=#FFFFFF;" vertex="1" parent="77e6c97f196da883-3">
+        <mxCell id="eKoN9m4MR0wtzUziHYdc-27" value="发请求 /check_identity_ocr&lt;br&gt;&lt;span&gt;再次得到并重置id_card_name&lt;br&gt;和id_card_no信息&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#005700;fillColor=#008a00;fontColor=#FFFFFF;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="30.4" y="1490" width="251.1" height="100" as="geometry" />
         </mxCell>
         <mxCell id="eKoN9m4MR0wtzUziHYdc-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="77e6c97f196da883-3" source="eKoN9m4MR0wtzUziHYdc-41" target="eKoN9m4MR0wtzUziHYdc-27">
