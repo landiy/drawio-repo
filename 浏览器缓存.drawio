@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-27T08:28:47.735Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="_VDBXTAwS4raVTF8YqUA" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-27T08:31:30.878Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="tWaQGeBEZHqqVTKoCOP7" version="14.2.7" type="github">
   <diagram id="NUCHjerggOm3OMJYKeuQ" name="Page-1">
     <mxGraphModel dx="1581" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -96,7 +96,7 @@
         </mxCell>
         <mxCell id="K0_olAz4azfouy1TQkoH-37" value="已失效" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K0_olAz4azfouy1TQkoH-36">
           <mxGeometry x="-0.592" y="3" relative="1" as="geometry">
-            <mxPoint x="22.18" y="3" as="offset" />
+            <mxPoint x="16.33" y="43" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K0_olAz4azfouy1TQkoH-29" value="强缓存是否失效" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
@@ -106,52 +106,52 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K0_olAz4azfouy1TQkoH-40" value="发送网络请求，等待网络响应" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="462" y="1270" width="256" height="60" as="geometry" />
+          <mxGeometry x="418" y="1270" width="256" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K0_olAz4azfouy1TQkoH-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K0_olAz4azfouy1TQkoH-41" target="K0_olAz4azfouy1TQkoH-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K0_olAz4azfouy1TQkoH-41" value="把响应内容存入 disk cache &lt;br&gt;(如果 HTTP 响应头指示可以存的话)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="1599" width="256" height="60" as="geometry" />
+          <mxGeometry x="411.5" y="1570" width="256" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K0_olAz4azfouy1TQkoH-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K0_olAz4azfouy1TQkoH-43">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="338" y="1889" as="targetPoint" />
+            <mxPoint x="539.5" y="1860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K0_olAz4azfouy1TQkoH-43" value="把响应内容 的引用 存入 memory cache &lt;br&gt;(无视 HTTP 头信息的配置)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="1729" width="256" height="60" as="geometry" />
+          <mxGeometry x="411.5" y="1700" width="256" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K0_olAz4azfouy1TQkoH-45" value="把响应内容存入 Service Worker 的 Cache Storage &lt;br&gt;(如果 Service Worker 的脚本调用了 cache.put())" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="174" y="1849" width="340" height="60" as="geometry" />
+          <mxGeometry x="375.5" y="1820" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K0_olAz4azfouy1TQkoH-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K0_olAz4azfouy1TQkoH-48" target="K0_olAz4azfouy1TQkoH-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K0_olAz4azfouy1TQkoH-48" value="使用 协商(对比)缓存" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="960" width="120" height="60" as="geometry" />
+        <mxCell id="K0_olAz4azfouy1TQkoH-48" value="使用 协商(对比) 缓存" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="456" y="960" width="179" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K0_olAz4azfouy1TQkoH-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K0_olAz4azfouy1TQkoH-52" target="K0_olAz4azfouy1TQkoH-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K0_olAz4azfouy1TQkoH-52" value="头部带入 &lt;br&gt;If-Modified-Since 或&lt;br&gt;If-None-Match" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1120" width="160" height="60" as="geometry" />
+          <mxGeometry x="466" y="1120" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K0_olAz4azfouy1TQkoH-58" value="返回 304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K0_olAz4azfouy1TQkoH-55" target="K0_olAz4azfouy1TQkoH-57">
+        <mxCell id="K0_olAz4azfouy1TQkoH-58" value="返回 304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K0_olAz4azfouy1TQkoH-55" target="K0_olAz4azfouy1TQkoH-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K0_olAz4azfouy1TQkoH-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="K0_olAz4azfouy1TQkoH-55" target="K0_olAz4azfouy1TQkoH-64">
+        <mxCell id="K0_olAz4azfouy1TQkoH-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K0_olAz4azfouy1TQkoH-55" target="K0_olAz4azfouy1TQkoH-64">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1130" y="1330" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K0_olAz4azfouy1TQkoH-66" value="返回200" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K0_olAz4azfouy1TQkoH-65">
           <mxGeometry x="-0.4127" y="5" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="35.93" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K0_olAz4azfouy1TQkoH-55" value="服务器判断，返回 304 或 200" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="827" y="1270" width="256" height="60" as="geometry" />
+          <mxGeometry x="1010" y="1270" width="256" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K0_olAz4azfouy1TQkoH-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K0_olAz4azfouy1TQkoH-57" target="K0_olAz4azfouy1TQkoH-59">
           <mxGeometry relative="1" as="geometry" />
@@ -160,13 +160,13 @@
           <mxGeometry x="827" y="1410" width="256" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K0_olAz4azfouy1TQkoH-59" value="使用缓存内容&lt;br&gt;状态码304" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="466" y="1410" width="256" height="60" as="geometry" />
+          <mxGeometry x="91" y="1410" width="256" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K0_olAz4azfouy1TQkoH-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K0_olAz4azfouy1TQkoH-64" target="K0_olAz4azfouy1TQkoH-41">
+        <mxCell id="K0_olAz4azfouy1TQkoH-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K0_olAz4azfouy1TQkoH-64" target="K0_olAz4azfouy1TQkoH-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K0_olAz4azfouy1TQkoH-64" value="返回新资源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1490" width="256" height="60" as="geometry" />
+          <mxGeometry x="1170" y="1410" width="256" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
