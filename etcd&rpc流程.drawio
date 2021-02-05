@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T08:27:29.393Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="YiSjPpbsOg0qfl-vI937" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-05T08:29:56.643Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="NISpHXHuKPD_M7x7BU0_" version="14.2.9" type="github">
   <diagram id="KGO9RCgu3UFrPwI6bHZ9" name="Page-1">
     <mxGraphModel dx="1172" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,19 +38,29 @@
           <mxGeometry x="370" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jWdivI3Rdq9qjJ7Igxuj-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jWdivI3Rdq9qjJ7Igxuj-2" target="jWdivI3Rdq9qjJ7Igxuj-5">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="820" />
+              <mxPoint x="390" y="820" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="jWdivI3Rdq9qjJ7Igxuj-20" value="转发后台http请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jWdivI3Rdq9qjJ7Igxuj-6">
+        <mxCell id="jWdivI3Rdq9qjJ7Igxuj-20" value="http请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jWdivI3Rdq9qjJ7Igxuj-6">
           <mxGeometry x="-0.0667" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jWdivI3Rdq9qjJ7Igxuj-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jWdivI3Rdq9qjJ7Igxuj-2" target="jWdivI3Rdq9qjJ7Igxuj-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="jWdivI3Rdq9qjJ7Igxuj-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jWdivI3Rdq9qjJ7Igxuj-2" target="jWdivI3Rdq9qjJ7Igxuj-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="780" />
+              <mxPoint x="270" y="640" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="jWdivI3Rdq9qjJ7Igxuj-19" value="返回静态资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jWdivI3Rdq9qjJ7Igxuj-18">
           <mxGeometry x="-0.3737" relative="1" as="geometry">
-            <mxPoint x="-29.5" y="-30" as="offset" />
+            <mxPoint y="-33" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jWdivI3Rdq9qjJ7Igxuj-2" value="nginx网关，&lt;br&gt;同时也是静态资源所在发布机器" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -69,6 +79,14 @@
         </mxCell>
         <mxCell id="jWdivI3Rdq9qjJ7Igxuj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jWdivI3Rdq9qjJ7Igxuj-5" target="jWdivI3Rdq9qjJ7Igxuj-9">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jWdivI3Rdq9qjJ7Igxuj-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jWdivI3Rdq9qjJ7Igxuj-5" target="jWdivI3Rdq9qjJ7Igxuj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jWdivI3Rdq9qjJ7Igxuj-22" value="http响应" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jWdivI3Rdq9qjJ7Igxuj-21">
+          <mxGeometry x="0.1" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="jWdivI3Rdq9qjJ7Igxuj-5" value="后端 api 网关服务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="325" y="870" width="210" height="60" as="geometry" />
