@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T07:15:44.600Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" version="14.2.9" etag="irEp7LROqVVuqqTYWUJ9" type="github"><diagram id="KGO9RCgu3UFrPwI6bHZ9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-05T07:40:37.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="V51hlQbZFDreuqk5Np3B" version="14.2.9" type="github">
+  <diagram id="KGO9RCgu3UFrPwI6bHZ9" name="Page-1">
+    <mxGraphModel dx="1172" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x-1Xr5X_kJv5rw9ZrKIV-71" value="Node 后台&lt;br&gt;发起一个RPC请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="94" y="70" width="150" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1Xr5X_kJv5rw9ZrKIV-72" value="ETCD 服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="554" y="125" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1Xr5X_kJv5rw9ZrKIV-76" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="244" y="125" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1Xr5X_kJv5rw9ZrKIV-78" value="etcd 命名空间+&lt;br&gt;该空间上注册的服务名称" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="304" y="120" width="190" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1Xr5X_kJv5rw9ZrKIV-79" value="服务地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="334" y="165" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1Xr5X_kJv5rw9ZrKIV-80" value="后台服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="554" y="340" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1Xr5X_kJv5rw9ZrKIV-81" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="244" y="360" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1Xr5X_kJv5rw9ZrKIV-82" value="&amp;nbsp;根据服务地址&lt;br&gt;发送RPC请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="329" y="340" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="x-1Xr5X_kJv5rw9ZrKIV-83" value="RPC响应" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="400" width="90" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
