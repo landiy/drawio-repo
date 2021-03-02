@@ -1,1 +1,192 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T10:44:25.242Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" version="14.4.3" etag="jTMKP8-gRy_wMMA9nYgH" type="github"><diagram id="sQzDe2rEKnGd2jwUgrY9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-02T11:59:03.419Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="2W-w_wysyduzdnveTF_V" version="14.4.3" type="github">
+  <diagram id="sQzDe2rEKnGd2jwUgrY9" name="Page-1">
+    <mxGraphModel dx="2253" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PMFpwHZt799NV9WPYvtV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-1" target="PMFpwHZt799NV9WPYvtV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-1" value="/pin/payInput/:checkout_id页面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="275" y="40" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-2" target="PMFpwHZt799NV9WPYvtV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-2" value="输入PIN码满6位" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-4" target="PMFpwHZt799NV9WPYvtV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-8" value="AES-CBC加密的pwd" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PMFpwHZt799NV9WPYvtV-7">
+          <mxGeometry x="-0.225" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.779;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-1" target="PMFpwHZt799NV9WPYvtV-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="463" y="150" />
+              <mxPoint x="610" y="150" />
+              <mxPoint x="610" y="420" />
+              <mxPoint x="478" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-10" value="checkout_id、channel_id、password_type=1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PMFpwHZt799NV9WPYvtV-9">
+          <mxGeometry x="-0.1811" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="189.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-4" value="向&amp;nbsp;https://capi.wallet.airpay.co.id/secret_token&amp;nbsp;&lt;br&gt;请求 token" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="310" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-6" target="PMFpwHZt799NV9WPYvtV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-6" value="请求 check_commit_payment&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="450" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-11" target="PMFpwHZt799NV9WPYvtV-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-21" value="code = 0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PMFpwHZt799NV9WPYvtV-17">
+          <mxGeometry x="-0.12" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-11" value="res.code" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="560" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-20" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;pin_failed_times = 0&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PMFpwHZt799NV9WPYvtV-19">
+          <mxGeometry x="-0.05" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-16" target="PMFpwHZt799NV9WPYvtV-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-44" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;pin_failed_times &amp;gt; 0&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PMFpwHZt799NV9WPYvtV-42">
+          <mxGeometry x="-0.4533" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-16" value="res.pin_failed_times" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="690" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-25" target="PMFpwHZt799NV9WPYvtV-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-25" target="PMFpwHZt799NV9WPYvtV-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-25" target="PMFpwHZt799NV9WPYvtV-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-25" value="根据res.checkout_type[0]&lt;br&gt;判断" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-27" target="PMFpwHZt799NV9WPYvtV-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-27" target="PMFpwHZt799NV9WPYvtV-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-27" target="PMFpwHZt799NV9WPYvtV-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-27" value="正常支付" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-29" value="风控加验" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-31" value="电子签名" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-32" value="&lt;span&gt;如果是联合支付&lt;/span&gt;&lt;br&gt;&lt;span&gt;根据res.pay_callback_url跳转&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="1120" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-37" value="如果是DP&lt;br&gt;跳转到DP支付结果页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-39" value="其他&lt;br&gt;跳转到 /payresult/:checkoutid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1120" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-43" target="PMFpwHZt799NV9WPYvtV-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-43" target="PMFpwHZt799NV9WPYvtV-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-43" value="0 &amp;lt; pin_failed_times &amp;lt; temp_throttle_count" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="850" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-45" target="PMFpwHZt799NV9WPYvtV-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-45" target="PMFpwHZt799NV9WPYvtV-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-45" value="pin_failed_times = temp_throttle_count -1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="960" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-47" target="PMFpwHZt799NV9WPYvtV-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-47" target="PMFpwHZt799NV9WPYvtV-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-47" value="pin_failed_times = temp_throttle_count" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1070" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-49" target="PMFpwHZt799NV9WPYvtV-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-49" target="PMFpwHZt799NV9WPYvtV-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-49" value="pin_failed_times = perm_throttle_count -1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1190" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-53" target="PMFpwHZt799NV9WPYvtV-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-53" value="pin_failed_times = perm_throttle_count&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1310" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-57" value="提示&amp;nbsp;more attempt left before ShopeePay Wallet is disabled" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1190" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-59" value="跳到/pin/payError/${id}页面，永久冻结" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1310" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-61" value="跳到/pin/payError/${id}页面，暂时冻结" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1070" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-63" value="&lt;span&gt;提示 1 more attempt left before ShopeePay Wallet is disabled for 30 minutes&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="960" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-65" value="提示 Please try again or reset your PIN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="850" width="280" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
