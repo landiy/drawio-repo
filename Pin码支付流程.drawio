@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T12:06:05.064Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="TxrUPAs9NncVan6lHHMm" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-02T12:06:49.619Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="tkqxP_il9f4u-i29Sm-N" version="14.4.3" type="github">
   <diagram id="sQzDe2rEKnGd2jwUgrY9" name="Page-1">
     <mxGraphModel dx="2253" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -158,10 +158,10 @@
         <mxCell id="PMFpwHZt799NV9WPYvtV-31" value="电子签名" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PMFpwHZt799NV9WPYvtV-32" value="&lt;span&gt;如果是联合支付&lt;/span&gt;&lt;br&gt;&lt;span&gt;根据res.pay_callback_url跳转&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="PMFpwHZt799NV9WPYvtV-32" value="&lt;span&gt;是联合支付&lt;/span&gt;&lt;br&gt;&lt;span&gt;根据res.pay_callback_url跳转&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-70" y="1120" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PMFpwHZt799NV9WPYvtV-37" value="如果是DP&lt;br&gt;跳转到DP支付结果页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PMFpwHZt799NV9WPYvtV-37" value="是DP&lt;br&gt;跳转到DP支付结果页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PMFpwHZt799NV9WPYvtV-39" value="其他&lt;br&gt;跳转到 /payresult/:checkoutid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
