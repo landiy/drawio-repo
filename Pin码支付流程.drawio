@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T11:59:03.419Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="2W-w_wysyduzdnveTF_V" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-02T12:04:37.092Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="xQayVP83oSzwkLdTPd1v" version="14.4.3" type="github">
   <diagram id="sQzDe2rEKnGd2jwUgrY9" name="Page-1">
     <mxGraphModel dx="2253" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,6 +56,20 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-11" target="PMFpwHZt799NV9WPYvtV-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="600" />
+              <mxPoint x="120" y="1035" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-69" value="如果 code 包含在特定错误码中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PMFpwHZt799NV9WPYvtV-68">
+          <mxGeometry x="-0.0667" y="-4" relative="1" as="geometry">
+            <mxPoint x="14" y="76" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PMFpwHZt799NV9WPYvtV-11" value="res.code" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="560" width="240" height="80" as="geometry" />
         </mxCell>
@@ -101,11 +115,27 @@
           <mxGeometry x="340" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PMFpwHZt799NV9WPYvtV-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-27" target="PMFpwHZt799NV9WPYvtV-32">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="1020" />
+              <mxPoint x="220" y="1070" />
+              <mxPoint x="45" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-71" value="type=1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PMFpwHZt799NV9WPYvtV-33">
+          <mxGeometry x="-0.8316" y="1" relative="1" as="geometry">
+            <mxPoint x="-101" y="26" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PMFpwHZt799NV9WPYvtV-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-27" target="PMFpwHZt799NV9WPYvtV-37">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-70" value="channel_id=3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PMFpwHZt799NV9WPYvtV-36">
+          <mxGeometry x="-0.54" y="-2" relative="1" as="geometry">
+            <mxPoint y="47" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PMFpwHZt799NV9WPYvtV-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PMFpwHZt799NV9WPYvtV-27" target="PMFpwHZt799NV9WPYvtV-39">
@@ -185,6 +215,9 @@
         </mxCell>
         <mxCell id="PMFpwHZt799NV9WPYvtV-65" value="提示 Please try again or reset your PIN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="850" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMFpwHZt799NV9WPYvtV-72" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1020" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
