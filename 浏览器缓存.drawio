@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T09:43:10.363Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="8NhAGCoK2BBx2h9XXaBm" version="14.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-16T09:45:31.738Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="QNETrQqCZyXo0nyxFLs0" version="14.7.9" type="github">
   <diagram id="NUCHjerggOm3OMJYKeuQ" name="Page-1">
-    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,8 +159,18 @@
         <mxCell id="ls9EEzSpfhRb5rXhCyP0-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ls9EEzSpfhRb5rXhCyP0-2" target="ls9EEzSpfhRb5rXhCyP0-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ls9EEzSpfhRb5rXhCyP0-10" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ls9EEzSpfhRb5rXhCyP0-5">
+          <mxGeometry x="-0.1693" y="-1" relative="1" as="geometry">
+            <mxPoint x="21" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ls9EEzSpfhRb5rXhCyP0-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ls9EEzSpfhRb5rXhCyP0-2" target="ls9EEzSpfhRb5rXhCyP0-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ls9EEzSpfhRb5rXhCyP0-11" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ls9EEzSpfhRb5rXhCyP0-7">
+          <mxGeometry x="-0.5089" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ls9EEzSpfhRb5rXhCyP0-2" value="缓存资源有etag?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="450.75" y="1000" width="189.5" height="80" as="geometry" />
