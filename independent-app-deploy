@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T10:19:22.291Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="aaFBPGxOr65bAnlaw2HP" version="16.6.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-23T10:37:05.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="OnjM4hQXyCT0lMSOWapK" version="16.6.1" type="github" pages="3">
   <diagram id="45q_ET1bdj6KkHxP6PQb" name="Page-1">
     <mxGraphModel dx="2125" dy="1978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -389,10 +389,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="t3Azc1YWWeQzGbQ83HNZ" name="Page-2">
-    <mxGraphModel dx="2596" dy="1618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1623" dy="1011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="iXV8bsEUayHAzxYsCxwD-0" />
         <mxCell id="iXV8bsEUayHAzxYsCxwD-1" parent="iXV8bsEUayHAzxYsCxwD-0" />
+        <mxCell id="OhnrmjHWMYlgCSh9dgKs-63" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFF4C3;fillColor=none;dashed=1;dashPattern=1 1;" vertex="1" parent="iXV8bsEUayHAzxYsCxwD-1">
+          <mxGeometry x="240" y="280" width="130" height="140" as="geometry" />
+        </mxCell>
         <mxCell id="OhnrmjHWMYlgCSh9dgKs-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iXV8bsEUayHAzxYsCxwD-1" source="iXV8bsEUayHAzxYsCxwD-5" target="OhnrmjHWMYlgCSh9dgKs-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -556,7 +559,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OhnrmjHWMYlgCSh9dgKs-4" value="流水线自动+手动识别部署的子应用(可能多个)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="iXV8bsEUayHAzxYsCxwD-1">
-          <mxGeometry x="471" y="630" width="146" height="60" as="geometry" />
+          <mxGeometry x="471" y="640" width="146" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OhnrmjHWMYlgCSh9dgKs-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iXV8bsEUayHAzxYsCxwD-1" source="OhnrmjHWMYlgCSh9dgKs-6" target="OhnrmjHWMYlgCSh9dgKs-21">
           <mxGeometry relative="1" as="geometry" />
@@ -580,7 +583,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OhnrmjHWMYlgCSh9dgKs-15" value="&lt;span&gt;流水线检测release分支对应子应用代码是否base且不慢于master&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="iXV8bsEUayHAzxYsCxwD-1">
+        <mxCell id="OhnrmjHWMYlgCSh9dgKs-15" value="&lt;span&gt;流水线检测release分支对应子应用代码是否base于master且不快与此&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="iXV8bsEUayHAzxYsCxwD-1">
           <mxGeometry x="449" y="960" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OhnrmjHWMYlgCSh9dgKs-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iXV8bsEUayHAzxYsCxwD-1" source="OhnrmjHWMYlgCSh9dgKs-21" target="OhnrmjHWMYlgCSh9dgKs-15">
@@ -640,6 +643,15 @@
         </mxCell>
         <mxCell id="OhnrmjHWMYlgCSh9dgKs-56" value="通知相关人员&lt;br&gt;流程结束" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="iXV8bsEUayHAzxYsCxwD-1">
           <mxGeometry x="1025" y="1560.0000000000002" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OhnrmjHWMYlgCSh9dgKs-61" value="RD触发部分" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="iXV8bsEUayHAzxYsCxwD-1">
+          <mxGeometry x="250" y="307.5" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OhnrmjHWMYlgCSh9dgKs-62" value="&lt;span style=&quot;background-color: rgb(255 , 244 , 195)&quot;&gt;流水线触发部分&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="iXV8bsEUayHAzxYsCxwD-1">
+          <mxGeometry x="250" y="367.5" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OhnrmjHWMYlgCSh9dgKs-65" value="&lt;span style=&quot;font-size: 12px&quot;&gt;图例&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;labelBackgroundColor=none;fontSize=12;" vertex="1" parent="iXV8bsEUayHAzxYsCxwD-1">
+          <mxGeometry x="250" y="280" width="30" height="17.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
