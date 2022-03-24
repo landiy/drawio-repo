@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T12:34:28.686Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="Hziiisy23lDn4MG0QMj1" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-24T12:41:10.166Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="IhiYVt5Vwazat1Ujf_wc" version="16.6.1" type="github">
   <diagram id="fjeT-Q81lyp6K0VjsVOl" name="Page-1">
-    <mxGraphModel dx="1366" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1129" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,19 +22,19 @@
         <mxCell id="vat9FCL66bpgNvRTvxZE-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vat9FCL66bpgNvRTvxZE-10" target="vat9FCL66bpgNvRTvxZE-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vat9FCL66bpgNvRTvxZE-10" value="流水线发布对应子应用的PPE小流量" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="484" y="750" width="120" height="60" as="geometry" />
+        <mxCell id="vat9FCL66bpgNvRTvxZE-10" value="流水线自动 diff 出改动的&lt;br&gt;子应用并部署其PPE小流量" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="447" y="640" width="194" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vat9FCL66bpgNvRTvxZE-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vat9FCL66bpgNvRTvxZE-13" target="vat9FCL66bpgNvRTvxZE-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vat9FCL66bpgNvRTvxZE-58" value="测试完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vat9FCL66bpgNvRTvxZE-57">
           <mxGeometry x="-0.0407" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vat9FCL66bpgNvRTvxZE-13" value="通知子应用QA进行PPE小流量测试" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="484" y="960.0000000000002" width="120" height="60" as="geometry" />
+          <mxGeometry x="484" y="850.0000000000002" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vat9FCL66bpgNvRTvxZE-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vat9FCL66bpgNvRTvxZE-16" target="vat9FCL66bpgNvRTvxZE-7">
           <mxGeometry relative="1" as="geometry" />
@@ -47,17 +47,11 @@
         <mxCell id="vat9FCL66bpgNvRTvxZE-16" value="流水线开放全量部署" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="862" y="1001.5000000000002" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vat9FCL66bpgNvRTvxZE-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vat9FCL66bpgNvRTvxZE-18" target="vat9FCL66bpgNvRTvxZE-20">
+        <mxCell id="vat9FCL66bpgNvRTvxZE-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vat9FCL66bpgNvRTvxZE-18" target="vat9FCL66bpgNvRTvxZE-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vat9FCL66bpgNvRTvxZE-18" value="发车人点击卡片上Deploy&lt;br&gt;(部署完成后为ReDeploy)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="vat9FCL66bpgNvRTvxZE-18" value="发车人点击卡片上&lt;b&gt;Deploy&lt;/b&gt;&lt;br&gt;(部署完成后为&lt;b&gt;ReDeploy&lt;/b&gt;)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="437" y="524" width="214" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vat9FCL66bpgNvRTvxZE-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vat9FCL66bpgNvRTvxZE-20" target="vat9FCL66bpgNvRTvxZE-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vat9FCL66bpgNvRTvxZE-20" value="流水线识别要部署的&lt;br&gt;子应用(可能有多个)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="471" y="640" width="146" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vat9FCL66bpgNvRTvxZE-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vat9FCL66bpgNvRTvxZE-29" target="vat9FCL66bpgNvRTvxZE-33">
           <mxGeometry relative="1" as="geometry" />
@@ -82,12 +76,17 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vat9FCL66bpgNvRTvxZE-31" value="发车人在发布群唤起机器人&lt;br&gt;&lt;b&gt;@version master&lt;br&gt;online:&lt;/b&gt;&lt;b&gt;release-product/20220324&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="432" y="1081.5" width="224" height="60" as="geometry" />
+          <mxGeometry x="432" y="971.5" width="224" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vat9FCL66bpgNvRTvxZE-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=#FFFFFF;fontSize=12;" edge="1" parent="1" source="vat9FCL66bpgNvRTvxZE-33" target="vat9FCL66bpgNvRTvxZE-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vat9FCL66bpgNvRTvxZE-33" value="卡片提示应拉取master代码并重新部署ppe" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="vat9FCL66bpgNvRTvxZE-60" value="RD拉取最新master" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vat9FCL66bpgNvRTvxZE-32">
+          <mxGeometry x="-0.2199" y="-3" relative="1" as="geometry">
+            <mxPoint x="-9" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vat9FCL66bpgNvRTvxZE-33" value="卡片提示应拉取master后重新部署ppe" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="862" y="524" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vat9FCL66bpgNvRTvxZE-34" value="通知上线成功&lt;br&gt;流程结束" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -136,7 +135,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vat9FCL66bpgNvRTvxZE-53" value="&lt;span style=&quot;background-color: rgb(255 , 244 , 195)&quot;&gt;PPE发布完成，&lt;br&gt;通知相关人员&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="484" y="860" width="120" height="60" as="geometry" />
+          <mxGeometry x="484" y="750" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
